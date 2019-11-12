@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "img": "./img/projects/gallery.png",
     "heading": "Photo Gallery App",
     "desc": "An image gallery app.",
@@ -7,6 +8,7 @@
     "github_url": "https://github.com/webdevwithomar/react_image_gallery"
   },
   {
+    "id": 2,
     "img": "./img/projects/zultan.png",
     "heading": "Zultan",
     "desc": "An e-commerce app.",
@@ -14,6 +16,7 @@
     "github_url": "https://github.com/webdevwithomar/zultanbd"
   },
   {
+    "id": 3,
     "img": "./img/projects/ans.png",
     "heading": "Azad & Sons",
     "desc": "A static website for a business.",
@@ -21,6 +24,7 @@
     "github_url": "https://github.com/webdevwithomar/azadandsons"
   },
   {
+    "id": 4,
     "img": "./img/projects/weather.png",
     "heading": "Weather App",
     "desc": "A simple weather application.",
@@ -28,6 +32,7 @@
     "github_url": "https://github.com/webdevwithomar/weather-app"
   },
   {
+    "id": 5,
     "img": "./img/projects/employee.png",
     "heading": "Employee Directory",
     "desc": "Search for fake random employees.",
@@ -35,6 +40,7 @@
     "github_url": "https://github.com/webdevwithomar/employee_directory"
   },
   {
+    "id": 6,
     "img": "./img/projects/game.png",
     "heading": "Game Show App",
     "desc": "A phrase hunting game.",

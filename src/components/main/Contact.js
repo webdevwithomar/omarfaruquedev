@@ -37,17 +37,17 @@ export default class Contact extends Component {
           <form name="contact" className="mt-5" method="POST" data-netlify="true" onSubmit={this.handleSubmit}>
             <div className="form-group">
               <label htmlFor="name" className="sr-only">Your Name</label>
-              <input name="name" type="text" className="form-control form-control-lg" id="name" placeholder="Your Name" value={this.state.name} onChange={this.handleChange} autoComplete="off" />
+              <input name="name" type="text" className="form-control form-control-lg" id="name" placeholder="Your Name" value={this.state.name} onChange={this.handleChange} autoComplete="off" required />
             </div>
             <div className="form-group">
               <label htmlFor="email" className="sr-only">Your Email</label>
               <input type="email" className="form-control form-control-lg" id="email" aria-describedby="emailHelp"
-                name="email" placeholder="Your Email" value={this.state.email} onChange={this.handleChange} autoComplete="off" />
+                name="email" placeholder="Your Email" value={this.state.email} onChange={this.handleChange} autoComplete="off" required />
             </div>
             <div className="form-group">
               <label htmlFor="message" className="sr-only">Message</label>
               <textarea className="form-control form-control-lg" placeholder="Your Message" name="message" id="message"
-                rows="3" value={this.state.message} onChange={this.handleChange}></textarea>
+                rows="3" value={this.state.message} onChange={this.handleChange} required></textarea>
             </div>
             <button type="submit" className="btn btn-lg btn-primary text-white send-message">Send Message</button>
           </form>

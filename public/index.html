@@ -37,7 +37,16 @@
       } else {
         $('.navbar').removeClass('bg-primary shadow')
       }
-    });
+    })
+
+    $('.navbar-toggler').on('click', () => {
+      $('.navbar').addClass('bg-primary shadow')
+    })
+
+    $('.close').on('click', function (e) {
+      $('.alert').addClass('d-none')
+      $('form').removeClass('mt-2').addClass('mt-5');
+    })
   </script>
 </body>
 
