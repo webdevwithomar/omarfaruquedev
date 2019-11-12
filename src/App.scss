@@ -1,0 +1,148 @@
+/**********************************
+* Custom Styles *
+**********************************/
+
+@import './scss/bootstrap.scss';
+
+/************* variables **************/
+
+$color-primary: #0984e3;
+$color-primary-lighter: lighten($color-primary, 20%);
+$color-primary-light: lighten($color-primary, 10%);
+$color-primary-dark: darken($color-primary, 10%);
+$color-primary-darker: darken($color-primary, 37%);
+
+$color-accent: #00b894;
+$color-accent-lighter: lighten($color-accent, 20%);
+$color-accent-light: lighten($color-accent, 10%);
+$color-accent-dark: darken($color-accent, 10%);
+$color-accent-darker: darken($color-accent, 24%);
+
+@mixin icon-animation{
+  transition: all .2s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+/************* reset **************/
+
+hr {
+  background-color: #555;
+}
+
+/************* header **************/
+.logo {
+  width: 48px;
+}
+
+.social-icon {
+  @include icon-animation;
+}
+
+/************* hero **************/
+
+#home {
+  min-height: 80vh;
+  position: relative;
+  background-image: linear-gradient(to right bottom, rgba($color-primary, 0.93), rgba($dark, 0.99)), url('./img/computer-3163436_1280.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+#actionBtn {
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: $box-shadow;
+  &:active {
+    box-shadow: $box-shadow-sm;
+  }
+}
+
+/************* headings **************/
+
+.heading-underline {
+  width: 6rem;
+  height: .5rem;
+  background-color: $color-primary;
+}
+
+h3 {
+  color: $color-accent-dark;
+}
+
+/************* skills **************/
+.skill-icon {
+  width: 128px;
+  @include icon-animation;
+}
+
+#skills,
+#contact {
+  background-color: #f6f6f6;
+}
+
+/************* projects **************/
+
+.card {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  margin: 0 auto;
+  max-width: 340px;
+  color: $color-primary;
+  overflow: hidden;
+
+  &:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+}
+
+.card-media {
+  width: 100%;
+}
+
+.card-details {
+  padding: 5px 15px;
+
+  p {
+    color: $gray-600;
+  }
+
+  .card-icon1 {
+    width: 32px;
+  }
+
+  .card-icon2 {
+    width: 41px;
+  }
+}
+
+.card-head {
+  font-weight: 400;
+}
+
+.card-head {
+  font-size: 26px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.card-action-button {
+  border-radius: 2px;
+  color: #FFAB40;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  margin: 0;
+  padding: 10px;
+  text-decoration: none;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "omarfaruque.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:scss": "node-sass scss/style.scss css/style.css -w"
+  },
+  "author": "Omar Faruque",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

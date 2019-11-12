@@ -1,0 +1,44 @@
+[
+  {
+    "img": "./img/projects/gallery.png",
+    "heading": "Photo Gallery App",
+    "desc": "An image gallery app.",
+    "url": "https://react-photo-gallery.herokuapp.com/",
+    "github_url": "https://github.com/webdevwithomar/react_image_gallery"
+  },
+  {
+    "img": "./img/projects/zultan.png",
+    "heading": "Zultan",
+    "desc": "An e-commerce app.",
+    "url": "http://www.zultanbd.com/",
+    "github_url": "https://github.com/webdevwithomar/zultanbd"
+  },
+  {
+    "img": "./img/projects/ans.png",
+    "heading": "Azad & Sons",
+    "desc": "A static website for a business.",
+    "url": "http://www.azadandsons.com/",
+    "github_url": "https://github.com/webdevwithomar/azadandsons"
+  },
+  {
+    "img": "./img/projects/weather.png",
+    "heading": "Weather App",
+    "desc": "A simple weather application.",
+    "url": "https://weatherappbyomar.herokuapp.com/",
+    "github_url": "https://github.com/webdevwithomar/weather-app"
+  },
+  {
+    "img": "./img/projects/employee.png",
+    "heading": "Employee Directory",
+    "desc": "Search for fake random employees.",
+    "url": "https://webdevwithomar.github.io/employee_directory/",
+    "github_url": "https://github.com/webdevwithomar/employee_directory"
+  },
+  {
+    "img": "./img/projects/game.png",
+    "heading": "Game Show App",
+    "desc": "A phrase hunting game.",
+    "url": "https://webdevwithomar.github.io/OOP_Game_Show_App/",
+    "github_url": "https://github.com/webdevwithomar/OOP_Game_Show_App"
+  }
+]

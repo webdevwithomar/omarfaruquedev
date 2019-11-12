@@ -1,0 +1,53 @@
+html
+<a target="_blank" href="/icons/set/html-5">Html 5 icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+css
+<a target="_blank" href="/icons/set/css3">CSS3 icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+js
+<a target="_blank" href="/icons/set/javascript">JavaScript icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+bs
+<a target="_blank" href="/icons/set/bootstrap">Bootstrap icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+sass
+<a target="_blank" href="/icons/set/sass">Sass icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+react
+<a target="_blank" href="/icons/set/react-native">React Native icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+nodejs
+<a target="_blank" href="/icons/set/nodejs">Nodejs icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+mongodb
+<a target="_blank" href="/icons/set/mongodb">MongoDB icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+git
+<a target="_blank" href="/icons/set/git">Git icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+npm
+<a target="_blank" href="/icons/set/npm">NPM icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+aws
+<a target="_blank" href="/icons/set/amazon-web-services">Amazon Web Services icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+heroku
+<a target="_blank" href="/icons/set/heroku">Heroku icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+graphql
+<a target="_blank" href="/icons/set/graphql">Graphql icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+docker
+<a target="_blank" href="/icons/set/docker">Docker icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+git
+<a target="_blank" href="/icons/set/github">GitHub icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+linkedin
+<a target="_blank" href="/icons/set/linkedin">LinkedIn icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+twitter
+<a target="_blank" href="/icons/set/twitter">Twitter icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+logo
+<a href="https://www.freepik.com/free-photos-vectors/logo">Logo vector created by 3ab2ou - www.freepik.com</a>
