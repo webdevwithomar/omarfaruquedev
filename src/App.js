@@ -13,6 +13,9 @@ import IndividualProj from './components/main/IndividualProj';
 import Contact from './components/main/Contact';
 import Footer from './components/footer/Footer';
 
+// google analytics
+import ReactGA from 'react-ga';
+
 export default class App extends Component {
   state = {
     projects: []
@@ -24,6 +27,11 @@ export default class App extends Component {
         const projects = res.data;
         this.setState({ projects });
       })
+
+    ReactGA.initialize('UA-153660643-1')
+
+    // to report page view
+    ReactGA.pageview(window.location.pathname)
   }
 
   render() {
@@ -39,7 +47,7 @@ export default class App extends Component {
             <Skills />
             <Switch>
               <Route exact path="/" render={() => <Projects projects={this.state.projects} />} />
-              <Route path="/projects/:id" render={(props) => <IndividualProj projects={this.state.projects} />} />
+              <Route path="/projects/:id" render={() => <IndividualProj projects={this.state.projects} />} />
             </Switch>
             <Contact />
           </main>
