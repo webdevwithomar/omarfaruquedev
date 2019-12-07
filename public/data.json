@@ -5,7 +5,9 @@
     "heading": "Photo Gallery App",
     "desc": "An image gallery app.",
     "url": "https://react-photo-gallery.herokuapp.com/",
-    "github_url": "https://github.com/webdevwithomar/react_image_gallery"
+    "github_url": "https://github.com/webdevwithomar/react_image_gallery",
+    "main_desc": "This app is built using a popular JavaScript library 'React'. The functionality is simple. It fetches photos from Flickr. If you search anything through this app, it will search photos from flickr with the keywords entered and the photos will be rendered.",
+    "main_images": []
   },
   {
     "id": 1,
@@ -13,7 +15,9 @@
     "heading": "Zultan",
     "desc": "An e-commerce app.",
     "url": "http://www.zultanbd.com/",
-    "github_url": "https://github.com/webdevwithomar/zultanbd"
+    "github_url": "https://github.com/webdevwithomar/zultanbd",
+    "main_desc": "A platform where vendors can sign up and sell their products and users can buy directly from them.",
+    "main_images": []
   },
   {
     "id": 2,
@@ -21,7 +25,9 @@
     "heading": "Azad & Sons",
     "desc": "A static website for a business.",
     "url": "http://www.azadandsons.com/",
-    "github_url": "https://github.com/webdevwithomar/azadandsons"
+    "github_url": "https://github.com/webdevwithomar/azadandsons",
+    "main_desc": "Website for a business where potential customers can take a look at the products and get to know about the features they provide.",
+    "main_images": []
   },
   {
     "id": 3,
@@ -29,7 +35,9 @@
     "heading": "Weather App",
     "desc": "A simple weather application.",
     "url": "https://weatherappbyomar.herokuapp.com/",
-    "github_url": "https://github.com/webdevwithomar/weather-app"
+    "github_url": "https://github.com/webdevwithomar/weather-app",
+    "main_desc": "A cool weather application",
+    "main_images": []
   },
   {
     "id": 4,
@@ -37,7 +45,9 @@
     "heading": "Employee Directory",
     "desc": "Search for fake random employees.",
     "url": "https://webdevwithomar.github.io/employee_directory/",
-    "github_url": "https://github.com/webdevwithomar/employee_directory"
+    "github_url": "https://github.com/webdevwithomar/employee_directory",
+    "main_desc": "An employee directory which communicates with a third-party API and displays random employees.",
+    "main_images": []
   },
   {
     "id": 5,
@@ -45,6 +55,8 @@
     "heading": "Game Show App",
     "desc": "A phrase hunting game.",
     "url": "https://webdevwithomar.github.io/OOP_Game_Show_App/",
-    "github_url": "https://github.com/webdevwithomar/OOP_Game_Show_App"
+    "github_url": "https://github.com/webdevwithomar/OOP_Game_Show_App",
+    "main_desc": "Guess the phrase before you run out of attempts.",
+    "main_images": []
   }
 ]

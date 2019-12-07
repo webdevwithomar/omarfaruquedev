@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.scss';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import axios from 'axios';
+import { BrowserRouter } from 'react-router-dom';
 
 // imports
 import Navbar from './components/header/Navbar';
@@ -9,7 +8,6 @@ import Hero from './components/main/Hero';
 import About from './components/main/About';
 import Skills from './components/main/Skills';
 import Projects from './components/main/Projects';
-import IndividualProj from './components/main/IndividualProj';
 import Contact from './components/main/Contact';
 import Footer from './components/footer/Footer';
 
@@ -17,19 +15,8 @@ import Footer from './components/footer/Footer';
 import ReactGA from 'react-ga';
 
 export default class App extends Component {
-  state = {
-    projects: []
-  }
-
   componentDidMount() {
-    axios.get(`./data.json`)
-      .then(res => {
-        const projects = res.data;
-        this.setState({ projects });
-      })
-
     ReactGA.initialize('UA-153660643-1')
-
     // to report page view
     ReactGA.pageview(window.location.pathname)
   }
@@ -45,10 +32,7 @@ export default class App extends Component {
             <Hero />
             <About />
             <Skills />
-            <Switch>
-              <Route exact path="/" render={() => <Projects projects={this.state.projects} />} />
-              <Route path="/projects/:id" render={() => <IndividualProj projects={this.state.projects} />} />
-            </Switch>
+            <Projects />
             <Contact />
           </main>
           <footer>
