@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "name": "HTML",
+    "type": "Front End Technologies",
+    "img": "./img/icons/html.svg"
+  },
+  {
+    "id": 1,
+    "name": "CSS",
+    "type": "Front End Technologies",
+    "img": "./img/icons/css.svg"
+  },
+  {
+    "id": 2,
+    "name": "JavaScript",
+    "type": "Front End Technologies",
+    "img": "./img/icons/javascript.svg"
+  },
+  {
+    "id": 3,
+    "name": "Bootstrap",
+    "type": "Front End Technologies",
+    "img": "./img/icons/bootstrap.svg"
+  },
+  {
+    "id": 4,
+    "name": "SASS",
+    "type": "Front End Technologies",
+    "img": "./img/icons/sass.svg"
+  },
+  {
+    "id": 5,
+    "name": "React",
+    "type": "Front End Technologies",
+    "img": "./img/icons/react.svg"
+  },
+  {
+    "id": 6,
+    "name": "Node.js",
+    "type": "Back End Technologies",
+    "img": "./img/icons/node.svg"
+  },
+  {
+    "id": 7,
+    "name": "MongoDB",
+    "type": "Databases",
+    "img": "./img/icons/mongo.svg"
+  },
+  {
+    "id": 8,
+    "name": "npm",
+    "type": "Tools",
+    "img": "./img/icons/npm.svg"
+  },
+  {
+    "id": 9,
+    "name": "Git",
+    "type": "Tools",
+    "img": "./img/icons/git.svg"
+  },
+  {
+    "id": 10,
+    "name": "Heroku",
+    "type": "Deployment",
+    "img": "./img/icons/heroku.svg"
+  },
+  {
+    "id": 11,
+    "name": "AWS",
+    "type": "Deployment",
+    "img": "./img/icons/aws.svg"
+  }
+]
